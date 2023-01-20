@@ -1,0 +1,8 @@
+{
+  "exchangeRateId": 3,
+  "originCurrency": "usd",
+  "amount": 200.00,
+  "destinationCurrency": "eur",
+  "convertedAmount": 828.00,
+  "rate": 4.14
+}
