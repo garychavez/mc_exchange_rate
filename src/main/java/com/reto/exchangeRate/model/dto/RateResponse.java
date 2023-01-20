@@ -9,14 +9,11 @@ import java.math.BigDecimal;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ExchangeRateResponse {
+public class RateResponse {
 
-    private Long exchangeRateId;
-    private String originCurrency;
-    private BigDecimal amount;
-    private String destinationCurrency;
-    private BigDecimal convertedAmount;
+    private Long rateId;
+    private String currency;
+    private String currencyDescription;
     private BigDecimal rate;
-
 
 }
