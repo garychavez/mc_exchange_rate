@@ -1,0 +1,41 @@
+[
+  {
+    "idPerson": 1,
+    "typeDocument": "RUC",
+    "typePerson": "juridica",
+    "numberDocument": 20604664901,
+    "name": "",
+    "lastName1": "",
+    "lastName2": "",
+    "socialReason": "Coroda Automatic Door SAC",
+    "address": "Av Río Marañón mz 13 lt 35 los olivos",
+    "email": "ventas@corodaautomaticdoor.com",
+    "phone": 998320659
+  },
+  {
+    "idPerson": 2,
+    "typeDocument": "DNI",
+    "typePerson": "natural",
+    "numberDocument": 71723707,
+    "name": "Gary Alberto ",
+    "lastName1": "Chavez ",
+    "lastName2": "Jimenez",
+    "socialReason": "",
+    "address": "A.v cordillera negra Mz E1 lt 1G",
+    "email": "chavezkiomara@gmail.com",
+    "phone": 955163628
+  },
+  {
+    "idPerson": 3,
+    "typeDocument": "DNI",
+    "typePerson": "natural",
+    "numberDocument": 74593040,
+    "name": "Lucero",
+    "lastName1": "Ampudia ",
+    "lastName2": "Trigoso",
+    "socialReason": "",
+    "address": "A.v Gasoducto Mz W Lt 25",
+    "email": "lunitalu24@gmail.com",
+    "phone": 960412212
+  }
+]
