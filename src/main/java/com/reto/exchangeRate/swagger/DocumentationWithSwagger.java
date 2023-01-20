@@ -31,7 +31,7 @@ public class DocumentationWithSwagger {
 
         return new ApiInfo("Exchange Rate Microservice", "This microservice is in charge of managing the exchange rate.",
                 "1.0", "Terms of Service",
-                new Contact("Lucero", "https://github.com/garychavez/mc_exchange_rate",
+                new Contact("Gary", "https://github.com/garychavez/mc_exchange_rate",
                         "chjalberto96@gmail.com"),
 				"License of Spring boot Restfull", "Spring boot license URL", Collections.emptyList());
     }
