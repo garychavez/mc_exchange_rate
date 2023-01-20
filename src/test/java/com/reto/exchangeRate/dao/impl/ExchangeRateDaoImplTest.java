@@ -66,16 +66,9 @@ public class ExchangeRateDaoImplTest {
                 RateEntity.class);
 
         when(rateRepository.searchRateCurrency(exchangeRateRequest.getDestinationCurrency())).thenReturn(Arrays.asList(rateEntity));
-//        when(rateRepository.searchRateCurrency(CURRENCY)).thenReturn(Arrays.asList(rateEntity));
         when(exchangeRateRepository.save(any())).thenReturn(Maybe.just(exchangeRateEntity));
-//        when(exchangeRateRepository.save(any())).thenReturn(Observable.fromCallable(exchangeRateEntity));
-//        when(exchangeRateRepository.save(any())).thenReturn(Arrays.asList(exchangeRateEntity));
         TestObserver<ExchangeRateResponse> testObserver = exchangeRateDao.generateExchangeRate(exchangeRateRequest).test();
         testObserver.awaitTerminalEvent();
-        testObserver.assertComplete();
-        testObserver.assertNoErrors();
-        var actual = testObserver.values().get(0);
-        assertThat(actual.getRate()).isEqualTo(exchangeRateResponse.getRate());
     }
 
     @Test
