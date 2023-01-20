@@ -176,7 +176,6 @@ public class ExchangeRateDaoImpl implements ExchangeRateDao {
 
     return Observable.fromIterable(rateRepository.searchDateRateCurrency(rateId,currency.toLowerCase()))
             .filter(objClient -> objClient.getCurrency().equals(currency.toLowerCase()))
-//            .map(this::getRateCurrency)
             .firstElement()
             .subscribeOn(Schedulers.io());
   }
